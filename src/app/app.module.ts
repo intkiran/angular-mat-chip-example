@@ -6,7 +6,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app.routing.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatButton, MatButtonModule } from '@angular/material/button';
-import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MaterialModule } from './material.module';
 import { BasicChipComponent } from './basic-chip/basic-chip.component';
 
