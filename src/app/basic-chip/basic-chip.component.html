@@ -5,8 +5,8 @@
   <mat-chip-list #chipList>
     <mat-chip *ngFor="let country of countries" [selectable]="selectable" [removable]="removable"
       (removed)="remove(country)">
-      {{fruit.name}}
-      <mat-icon matChipRemove *ngIf="removable">cancel</mat-icon>
+      {{country.name}}
+      <mat-icon matChipRemove *ngIf="removable">Ab</mat-icon>
     </mat-chip>
     <input placeholder="New Country..."
            [matChipInputFor]="chipList"

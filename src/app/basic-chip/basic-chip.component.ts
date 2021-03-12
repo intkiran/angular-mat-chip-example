@@ -26,7 +26,6 @@ export class BasicChipComponent {
     const input = event.input;
     const value = event.value;
 
-    // Add our fruit
     if ((value || "").trim()) {
       this.countries.push({ name: value.trim() });
     }
